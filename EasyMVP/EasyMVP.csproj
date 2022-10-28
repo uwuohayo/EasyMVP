@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="0Harmony" />
+    <None Remove="Assembly-CSharp-firstpass" />
+    <None Remove="Assembly-CSharp_publicized" />
+    <None Remove="AudioStreamMp3" />
+    <None Remove="CommandSystem.Core" />
+    <None Remove="DnsClient-net45" />
+    <None Remove="DnsClient-net471" />
+    <None Remove="DnsClient" />
+    <None Remove="MongoDB.Bson" />
+    <None Remove="Mirror" />
+    <None Remove="MongoDB.Driver.Core" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="MongoDB.Libmongocrypt" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="NLayer" />
+    <None Remove="Qurre" />
+    <None Remove="QurreSocket" />
+    <None Remove="UnityEngine.CoreModule" />
+    <None Remove="UnityEngine" />
+    <None Remove="YamlDotNet" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\Downloads\libs\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp_publicized">
+      <HintPath>..\..\..\Downloads\libs\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="AudioStreamMp3">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\AudioStreamMp3.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\..\..\Downloads\libs\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient-net45">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\DnsClient-net45.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient-net471">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\DnsClient-net471.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>..\..\..\Downloads\libs\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\MongoDB.Libmongocrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Downloads\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLayer">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\NLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Qurre">
+      <HintPath>..\..\..\Downloads\libs\Qurre.dll</HintPath>
+    </Reference>
+    <Reference Include="QurreSocket">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\QurreSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Downloads\libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\Downloads\libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>..\..\..\Downloads\ohayoBackup\%28.%29config\Qurre\Plugins\dependencies\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
